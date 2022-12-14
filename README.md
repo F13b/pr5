@@ -1,16 +1,33 @@
-# pr5
+# Практическа работа 5
 
-A new Flutter project.
+Тема: Передача данных между экранами и SharedPreference
 
-## Getting Started
+Цель: Реализовать передачу данных между экранами.
+Реализовать передачу данных через параметр arguments и сохранение данных в SharedPrefrences.
+Реализовать восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет то открыть 1 экран. Так же реализовать восстановление темы приложения.
 
-This project is a starting point for a Flutter application.
+Ход работы: 
 
-A few resources to get you started if this is your first Flutter project:
+Создаем первый экран, на котором расположена кнопка смены темы, текстовое поле и кнопка перехода на второй экран.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://user-images.githubusercontent.com/74062671/207535800-525d9a41-e528-4bbf-b8cb-4cf366bfe38f.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+В SharedPreference сохраняется значение текущей темы и значение, которое было введено в текстовое поле.
+
+Создаем второй экран, на котором расположена кнопка смены темы и текстовый блок, в которое передается значение из текстового поля.
+
+![image](https://user-images.githubusercontent.com/74062671/207537171-0e3c79cb-d761-49d6-b28b-8b4d644a5712.png)
+
+![image](https://user-images.githubusercontent.com/74062671/207538441-e02c6f25-c24b-465f-8196-b02667c5bcdb.png)
+
+Первый экран.
+
+![image](https://user-images.githubusercontent.com/74062671/207538836-30a313d2-9a1c-42f3-b1c9-f0eb110461c5.png)
+
+Второй экран.
+
+![image](https://user-images.githubusercontent.com/74062671/207538891-b8bed975-e030-4250-bfc0-b46adc8b604c.png)
+
+Вывод: Реализовал передачу данных между экранами.
+Реализовал передачу данных через параметр arguments и сохранение данных в SharedPrefrences.
+Реализовал восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет то открыть 1 экран. Так же реализовал восстановление темы приложения.
